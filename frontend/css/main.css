@@ -39,9 +39,27 @@ h2, .h2 {
   font-family: "DancingScript", sans-serif;
 }
 
+h4, .h4 {
+  color: orange !important;
+  font-family: "RobotoFlex", sans-serif;
+}
+
 label {
   color: orange !important;
   font-family: "RobotoFlex", sans-serif;
+}
+
+.card {
+  background-color: #212529;
+  border-radius: 10px;
+  border: 1px solid darkorange !important;
+}
+.card .card-title {
+  font-size: 1.5rem;
+  color: orange;
+}
+.card .card-body {
+  padding: 1.5rem;
 }
 
 .custom-button {
@@ -138,6 +156,10 @@ label {
   background-color: #212529 !important;
   border-color: black !important;
   color: orange !important;
+}
+
+.custom-text {
+  color: orange;
 }
 
 /*!

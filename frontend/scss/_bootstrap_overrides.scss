@@ -17,10 +17,29 @@ h2{
     color: $orange !important;
     font-family: $font-dancingscript;
 }
+h4{
+    color: $orange !important;
+    font-family: $font-robotoflex;
+}
 
 label{
     color: $orange !important;
     font-family: $font-robotoflex;
+}
+
+.card{
+    background-color: $dark-blue;
+    border-radius: 10px;
+    border: 1px solid $dark-orange !important;
+  
+    .card-title {
+      font-size: 1.5rem;
+      color: $orange
+    }
+  
+    .card-body {
+      padding: 1.5rem;
+    }
 }
 
 .custom-button {
@@ -121,4 +140,8 @@ label{
     background-color: $dark-blue !important;
     border-color: $black !important;
     color: $orange !important;
+}
+
+.custom-text{
+    color: $orange;
 }
